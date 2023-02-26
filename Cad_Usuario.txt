@@ -1,0 +1,21 @@
+programa
+{
+funcao controle_venda(){
+   escreva("Insira o código do produto que deseja vender:")
+   leia(icod)
+
+   se (icod >=1) E (icod <= codItem) entao //verificar se é um código válido
+      escreva("Código : ", icod) //o código é a posição no vetor!!!
+      escreva("Descrição : ", descricoes[icod])
+      escreva("Quantidade :", quantidades[icod])
+      escreva("Valor de venda : R$", precosVendas[icod], " por unidade")
+      escreva()
+      escreva("Quantas unidades deseja vender?")
+      leia(vendaqtt)
+      escreva("Foram vendidas", vendaqtt, " unidades do produto ", descricoes[icod])
+      escreva()
+      escreva("Pressione ENTER para continuar")
+      leia(opc)
+}
+
+}

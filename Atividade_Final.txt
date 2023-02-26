@@ -1,0 +1,30 @@
+programa
+{
+funcao cada_usuario(pos){
+inteiro mat_func[13]
+inteiro cpf_func[13]
+cadeia nome_func[13]
+cadeia email_func[13]
+cadeia funcao_func[13]
+inteiro status_func[13]
+inteiro nivel_func[13]
+
+inteiro dig_num
+cadeia dig_letras
+escreva ("\n Qual a matricula do funcionario?")
+leia(dig_num)
+escreva ("\n Qual o tipo de funcao do funcionario?")
+mat_func[pos]=dig_num
+
+cpf_func[pos]=dig_num
+nome_func[pos]=dig_letras
+email_func[pos]=dig_letras
+funcao_func[pos]=dig_letras
+status_func[pos]=dig_num
+nivel_func[pos]=dig_num
+
+pos=pos++
+cada_usuario()
+
+}
+}
